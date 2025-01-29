@@ -1,9 +1,10 @@
 import httpx
 
-from config import IMEI_API_TOKEN
+from config import IMEI_API_TOKEN, BACKEND_DOMAIN
+
 
 async def check_imei_device(imei: str):
-    url = "http://127.0.0.1:8000/api/check-imei"
+    url = f"{BACKEND_DOMAIN}/api/check-imei"
 
     headers = {
         "Content-Type": "application/json",
