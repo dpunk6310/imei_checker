@@ -12,3 +12,4 @@ else:
 
 
 IMEI_API_TOKEN = os.getenv("IMEI_API_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")

@@ -35,12 +35,15 @@ uvicorn app.backend.main:app --host 0.0.0.0 --port 8000 --reload
 python app/bot/main.py
 ```
 
-## API документация находится по адресу `http://127.0.0.1:8000/docs`
+#### API документация находится по адресу `http://127.0.0.1:8000/docs`
+#### Тестовый IMEI - `356735111052198`
+
 
 ## Пример работы
 
 <p align="center">
   <img src="img/1.png" width="600" height="auto" />
+  <img src="img/3.png" width="600" height="auto" />
   <img src="img/2.png" width="600" height="auto" />
 </p>
 
